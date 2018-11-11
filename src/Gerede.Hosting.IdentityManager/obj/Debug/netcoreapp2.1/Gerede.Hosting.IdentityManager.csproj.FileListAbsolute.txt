@@ -1,0 +1,14 @@
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\bin\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.deps.json
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\bin\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.runtimeconfig.json
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\bin\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.runtimeconfig.dev.json
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\bin\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.dll
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\bin\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.pdb
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.csprojAssemblyReference.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.csproj.CoreCompileInputs.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.RazorAssemblyInfo.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.RazorAssemblyInfo.cs
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.AssemblyInfoInputs.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.AssemblyInfo.cs
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.RazorTargetAssemblyInfo.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.dll
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.IdentityManager\obj\Debug\netcoreapp2.1\Gerede.Hosting.IdentityManager.pdb

@@ -1,0 +1,9 @@
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\bin\Debug\netstandard2.0\Gerede.Domain.Data.Manager.deps.json
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\bin\Debug\netstandard2.0\Gerede.Domain.Data.Manager.dll
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\bin\Debug\netstandard2.0\Gerede.Domain.Data.Manager.pdb
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.csproj.CoreCompileInputs.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.AssemblyInfoInputs.cache
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.AssemblyInfo.cs
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.dll
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.pdb
+C:\Users\Burak\source\repos\Gerede\src\Gerede.Domain.Data.Manager\obj\Debug\netstandard2.0\Gerede.Domain.Data.Manager.csprojAssemblyReference.cache
