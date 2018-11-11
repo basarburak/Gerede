@@ -10,7 +10,7 @@ namespace Gerede.Domain.Data.EntityFramework.Context
         {
             if (Database.EnsureCreated())
             {
-                GeredeSeed.CreateData(this);
+              //  GeredeSeed.CreateData(this);
             }
         }
 

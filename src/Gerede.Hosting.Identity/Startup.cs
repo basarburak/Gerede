@@ -1,4 +1,6 @@
 ﻿using Gerede.Hosting.Core.Extensions;
+using Gerede.Hosting.Identity.ConfigurationStore;
+using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +21,14 @@ namespace Gerede.Hosting.Identity
         {
             services.AddMvc();
 
-            services.AddGeredeIdentityServer();
+            services.AddIdentityServer()
+                    .AddDeveloperSigningCredential()
+                    .AddResourceStore<ResourceStore>()
+                    .AddClientStore<ClientStore>();
+                  //  .AddProfileService<ProfileService>();
+
+            services.AddTransient<IClientStore, ClientStore>();
+            services.AddTransient<IResourceStore, ResourceStore>();
 
             services.AddGeredeData(Configuration.GetServerSettings());
         }

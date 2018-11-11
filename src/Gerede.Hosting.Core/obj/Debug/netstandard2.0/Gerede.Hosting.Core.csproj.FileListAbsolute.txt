@@ -12,3 +12,17 @@ C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard
 C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.csproj.CopyComplete
 C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Core.dll
 C:\Users\Burak\source\repos\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Core.pdb
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Hosting.Core.deps.json
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Hosting.Core.dll
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Hosting.Core.pdb
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Core.dll
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Data.dll
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Data.pdb
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\bin\Debug\netstandard2.0\Gerede.Domain.Core.pdb
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.csprojAssemblyReference.cache
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.AssemblyInfoInputs.cache
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.AssemblyInfo.cs
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.csproj.CopyComplete
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.dll
+C:\Users\Burak\Documents\GitHub\Gerede\src\Gerede.Hosting.Core\obj\Debug\netstandard2.0\Gerede.Hosting.Core.pdb

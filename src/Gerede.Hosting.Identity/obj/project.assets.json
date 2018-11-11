@@ -4415,6 +4415,20 @@
           "bin/placeholder/Gerede.Domain.Data.dll": {}
         }
       },
+      "Gerede.Domain.Data.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Gerede.Domain.Data": "1.0.0",
+          "IdentityServer4": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Gerede.Domain.Data.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gerede.Domain.Data.Manager.dll": {}
+        }
+      },
       "Gerede.Hosting.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -11639,6 +11653,11 @@
       "path": "../Gerede.Domain.Data/Gerede.Domain.Data.csproj",
       "msbuildProject": "../Gerede.Domain.Data/Gerede.Domain.Data.csproj"
     },
+    "Gerede.Domain.Data.Manager/1.0.0": {
+      "type": "project",
+      "path": "../Gerede.Domain.Data.Manager/Gerede.Domain.Data.Manager.csproj",
+      "msbuildProject": "../Gerede.Domain.Data.Manager/Gerede.Domain.Data.Manager.csproj"
+    },
     "Gerede.Hosting.Core/1.0.0": {
       "type": "project",
       "path": "../Gerede.Hosting.Core/Gerede.Hosting.Core.csproj",
@@ -11648,6 +11667,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Gerede.Domain.Data >= 1.0.0",
+      "Gerede.Domain.Data.Manager >= 1.0.0",
       "Gerede.Hosting.Core >= 1.0.0",
       "IdentityServer4 >= 2.2.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
@@ -11661,11 +11681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Identity\\Gerede.Hosting.Identity.csproj",
+      "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Identity\\Gerede.Hosting.Identity.csproj",
       "projectName": "Gerede.Hosting.Identity",
-      "projectPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Identity\\Gerede.Hosting.Identity.csproj",
+      "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Identity\\Gerede.Hosting.Identity.csproj",
       "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Identity\\obj\\",
+      "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11684,11 +11704,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Domain.Data\\Gerede.Domain.Data.csproj": {
-              "projectPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Domain.Data\\Gerede.Domain.Data.csproj"
+            "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Domain.Data.Manager\\Gerede.Domain.Data.Manager.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Domain.Data.Manager\\Gerede.Domain.Data.Manager.csproj"
             },
-            "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj": {
-              "projectPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj"
+            "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Domain.Data\\Gerede.Domain.Data.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Domain.Data\\Gerede.Domain.Data.csproj"
+            },
+            "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj"
             }
           }
         }

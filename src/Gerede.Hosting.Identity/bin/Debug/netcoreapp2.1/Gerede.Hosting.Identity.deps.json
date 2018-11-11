@@ -25,6 +25,7 @@
       "Gerede.Hosting.Identity/1.0.0": {
         "dependencies": {
           "Gerede.Domain.Data": "1.0.0",
+          "Gerede.Domain.Data.Manager": "1.0.0",
           "Gerede.Hosting.Core": "1.0.0",
           "IdentityServer4": "2.2.0",
           "Microsoft.AspNetCore.App": "2.1.1",
@@ -660,6 +661,18 @@
         },
         "compile": {
           "Gerede.Domain.Data.dll": {}
+        }
+      },
+      "Gerede.Domain.Data.Manager/1.0.0": {
+        "dependencies": {
+          "Gerede.Domain.Data": "1.0.0",
+          "IdentityServer4": "2.2.0"
+        },
+        "runtime": {
+          "Gerede.Domain.Data.Manager.dll": {}
+        },
+        "compile": {
+          "Gerede.Domain.Data.Manager.dll": {}
         }
       },
       "Gerede.Hosting.Core/1.0.0": {
@@ -3570,6 +3583,11 @@
       "sha512": ""
     },
     "Gerede.Domain.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gerede.Domain.Data.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Gerede.Domain.Data\Gerede.Domain.Data.csproj" />
+    <ProjectReference Include="..\Gerede.Domain.Data.Manager\Gerede.Domain.Data.Manager.csproj" />
     <ProjectReference Include="..\Gerede.Hosting.Core\Gerede.Hosting.Core.csproj" />
   </ItemGroup>
 

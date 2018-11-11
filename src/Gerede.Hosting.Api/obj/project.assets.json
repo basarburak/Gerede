@@ -11659,11 +11659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Api\\Gerede.Hosting.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Api\\Gerede.Hosting.Api.csproj",
       "projectName": "Gerede.Hosting.Api",
-      "projectPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Api\\Gerede.Hosting.Api.csproj",
+      "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Api\\Gerede.Hosting.Api.csproj",
       "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Api\\obj\\",
+      "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11682,8 +11682,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj": {
-              "projectPath": "C:\\Users\\Burak\\source\\repos\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj"
+            "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\Gerede\\src\\Gerede.Hosting.Core\\Gerede.Hosting.Core.csproj"
             }
           }
         }
