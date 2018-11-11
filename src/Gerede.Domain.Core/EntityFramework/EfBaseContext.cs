@@ -4,13 +4,8 @@ using System.Threading.Tasks;
 
 namespace Gerede.Domain.Data.EntityFramework
 {
-    public class EfBaseContext<T> : DbContext where T : DbContext
+    public class EfBaseContext: DbContext
     {
-        public EfBaseContext(DbContextOptions<T> options) : base(options)
-        {
-            
-        }
-
         public override int SaveChanges()
         {
             return base.SaveChanges();

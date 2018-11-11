@@ -1,4 +1,5 @@
 ﻿using Gerede.Domain.Core.UnitOfWork;
+using Gerede.Domain.Data.Mapper;
 using Gerede.Domain.Data.Models.Entities.IdentityServer;
 using IdentityServer4.Models;
 using System;
@@ -16,35 +17,87 @@ namespace Gerede.Domain.Data.Manager
             _unitOfWork = unitOfWork;
         }
 
-        public Task<ApiResource> FindApiResourceAsync(string name)
+        public async Task<ApiResource> FindApiResourceAsync(string name)
         {
-            throw new NotImplementedException();
+            await Task.CompletedTask;
+
+            return _unitOfWork.GetRepository<ApiResourceEntity>()
+                              .GetAllQuery()
+                              .First(t => t.ApiResourceName == name)
+                              .MapDataFromEntity();
         }
 
-        public Task<IEnumerable<ApiResource>> FindApiResourcesByScopeAsync(IEnumerable<string> scopeNames)
+        public async Task<IEnumerable<ApiResource>> FindApiResourcesByScopeAsync(IEnumerable<string> scopeNames)
         {
-            throw new NotImplementedException();
+            await Task.CompletedTask;
+
+            if (scopeNames == null) throw new ArgumentNullException(nameof(scopeNames));
+
+
+            var apiResources = new List<ApiResource>();
+
+            var apiResourcesEntities = from i in _unitOfWork.GetRepository<ApiResourceEntity>().GetAllQuery()
+                                       where scopeNames.Contains(i.ApiResourceName)
+                                       select i;
+
+            foreach (var apiResourceEntity in apiResourcesEntities)
+            {
+                apiResourceEntity.MapDataFromEntity();
+
+                apiResources.Add(apiResourceEntity.MapDataFromEntity());
+            }
+            return apiResources;
         }
 
-        public Task<Client> FindClientByIdAsync(string clientId)
+        public async Task<Client> FindClientByIdAsync(string clientId)
         {
+            await Task.CompletedTask;
+
             var client = _unitOfWork.GetRepository<ClientEntity>()
                                     .GetAllQuery()
                                     .First(t => t.ClientId == clientId);
 
-          //  client.MapDataFromEntity();
-
-            throw new NotImplementedException();
+            return client.MapDataFromEntity();
         }
 
         public Task<IEnumerable<IdentityResource>> FindIdentityResourcesByScopeAsync(IEnumerable<string> scopeNames)
         {
-            throw new NotImplementedException();
+            if (scopeNames == null) throw new ArgumentNullException(nameof(scopeNames));
+
+            var identityResources = new List<IdentityResource>();
+
+            var identityResourcesEntities = from i in _unitOfWork.GetRepository<IdentityResourceEntity>().GetAllQuery()
+                                            where scopeNames.Contains(i.IdentityResourceName)
+                                            select i;
+
+            foreach (var identityResourceEntity in identityResourcesEntities)
+            {
+                identityResources.Add(identityResourceEntity.MapDataFromEntity());
+            }
+
+            return Task.FromResult(identityResources.AsEnumerable());
         }
 
         public Task<Resources> GetAllResourcesAsync()
         {
-            throw new NotImplementedException();
+            var apiResourcesEntities = _unitOfWork.GetRepository<ApiResourceEntity>().GetAllQuery();
+            var identityResourcesEntities = _unitOfWork.GetRepository<IdentityResourceEntity>().GetAllQuery();
+
+            var apiResources = new List<ApiResource>();
+            var identityResources = new List<IdentityResource>();
+
+            foreach (var apiResourceEntity in apiResourcesEntities)
+            {
+                apiResources.Add(apiResourceEntity.MapDataFromEntity());
+            }
+
+            foreach (var identityResourceEntity in identityResourcesEntities)
+            {
+                identityResources.Add(identityResourceEntity.MapDataFromEntity());
+            }
+
+            var result = new Resources(identityResources, apiResources);
+            return Task.FromResult(result);
         }
     }
 }

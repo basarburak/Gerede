@@ -4,14 +4,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Gerede.Domain.Data.EntityFramework.Context
 {
-    public class GeredeContext : EfBaseContext<GeredeContext>
+    public class GeredeContext : DbContext
     {
         public GeredeContext(DbContextOptions<GeredeContext> options) : base(options)
         {
-            if (Database.EnsureCreated())
-            {
-              //  GeredeSeed.CreateData(this);
-            }
+            // if (Database.EnsureCreated())
+            // {
+            //     GeredeSeed.CreateData(this);
+            // }
         }
 
         public DbSet<ClientEntity> Clients { get; set; }
@@ -20,6 +20,8 @@ namespace Gerede.Domain.Data.EntityFramework.Context
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.EnableAutoHistory(null);
+
             builder.AddGeredeEntityMap();
 
             base.OnModelCreating(builder);

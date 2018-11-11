@@ -1,4 +1,5 @@
-﻿using Gerede.Hosting.Core.Extensions;
+﻿using Gerede.Domain.Data.Manager;
+using Gerede.Hosting.Core.Extensions;
 using Gerede.Hosting.Identity.ConfigurationStore;
 using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Builder;
@@ -25,12 +26,15 @@ namespace Gerede.Hosting.Identity
                     .AddDeveloperSigningCredential()
                     .AddResourceStore<ResourceStore>()
                     .AddClientStore<ClientStore>();
-                  //  .AddProfileService<ProfileService>();
+
+            //  .AddProfileService<ProfileService>();
 
             services.AddTransient<IClientStore, ClientStore>();
             services.AddTransient<IResourceStore, ResourceStore>();
 
-            services.AddGeredeData(Configuration.GetServerSettings());
+            services.AddScoped<IIdentityServerService, IIdentityServerManager>();
+
+            services.AddGeredeData(Configuration.GetServerSettings(), false);
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

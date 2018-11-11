@@ -17,7 +17,8 @@ namespace Gerede.Hosting.Core.Extensions
             }
             else 
             {
-                //services.AddDbContext<GeredeContext>(opt => opt.UseMySQL(serverSetting.MySqlConnection));
+                services.AddDbContext<GeredeContext>(opt => opt.UseMySQL(serverSetting.MySqlConnection))
+                        .AddUnitOfWork<GeredeContext>();
             }
 
             return services;
