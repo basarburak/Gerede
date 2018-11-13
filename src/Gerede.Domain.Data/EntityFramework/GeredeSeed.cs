@@ -20,7 +20,6 @@ namespace Gerede.Domain.Data.EntityFramework
 
         private static IEnumerable<ClientEntity> GetClientsInternal()
         {
-            // client credentials client
             var internalClient = new List<Client>
            {
              new Client

@@ -8,10 +8,10 @@ namespace Gerede.Domain.Data.EntityFramework.Context
     {
         public GeredeContext(DbContextOptions<GeredeContext> options) : base(options)
         {
-            // if (Database.EnsureCreated())
-            // {
-            //     GeredeSeed.CreateData(this);
-            // }
+            if (Database.EnsureCreated())
+            {
+                GeredeSeed.CreateData(this);
+            }
         }
 
         public DbSet<ClientEntity> Clients { get; set; }

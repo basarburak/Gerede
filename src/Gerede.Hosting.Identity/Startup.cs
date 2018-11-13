@@ -22,6 +22,16 @@ namespace Gerede.Hosting.Identity
         {
             services.AddMvc();
 
+            services.AddCors(options =>
+                       {
+                           options.AddPolicy("default", policy =>
+                            {
+                                policy.WithOrigins("http://localhost:4200")
+                                   .AllowAnyHeader()
+                                   .AllowAnyMethod();
+                            });
+                       });
+
             services.AddIdentityServer()
                     .AddDeveloperSigningCredential()
                     .AddResourceStore<ResourceStore>()
@@ -47,6 +57,8 @@ namespace Gerede.Hosting.Identity
             app.UseIdentityServer();
 
             app.UseStaticFiles();
+
+            app.UseCors("default");
 
             app.UseMvcWithDefaultRoute();
         }

@@ -2660,7 +2660,7 @@
           }
         }
       },
-      "MySql.Data/8.0.12": {
+      "MySql.Data/8.0.13": {
         "type": "package",
         "dependencies": {
           "Google.Protobuf": "3.5.1",
@@ -2675,11 +2675,11 @@
           "lib/netcoreapp2.0/MySql.Data.dll": {}
         }
       },
-      "MySql.Data.EntityFrameworkCore/8.0.12": {
+      "MySql.Data.EntityFrameworkCore/8.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.0.3",
-          "MySql.Data": "8.0.12"
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.2",
+          "MySql.Data": "8.0.13"
         },
         "compile": {
           "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll": {}
@@ -4490,7 +4490,7 @@
           "IdentityServer4": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.1.3",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "MySql.Data.EntityFrameworkCore": "8.0.12"
+          "MySql.Data.EntityFrameworkCore": "8.0.13"
         },
         "compile": {
           "bin/placeholder/Gerede.Hosting.Core.dll": {}
@@ -6985,11 +6985,12 @@
         "version.txt"
       ]
     },
-    "MySql.Data/8.0.12": {
-      "sha512": "I2jGfuyeomrGJ+N9O+vuV2ucyeayf/tMFREKPdjUcs1/wUF0t+WgUnnzJmJl4sNePNR1fEvAGaGbVAo4uLSF2A==",
+    "MySql.Data/8.0.13": {
+      "sha512": "mXfjg2pOdzpyd4wkXZPKYcNluzV68ggAO/LPcT7iuzU5kDS7livUDR8IsKkarEhBmRxBy0XmBnUOkEWJvfOW9Q==",
       "type": "package",
-      "path": "mysql.data/8.0.12",
+      "path": "mysql.data/8.0.13",
       "files": [
+        ".signature.p7s",
         "lib/net452/MySql.Data.dll",
         "lib/net452/MySql.Data.xml",
         "lib/netcoreapp2.0/MySql.Data.dll",
@@ -6998,22 +6999,25 @@
         "lib/netstandard1.6/MySql.Data.xml",
         "lib/netstandard2.0/MySql.Data.dll",
         "lib/netstandard2.0/MySql.Data.xml",
-        "mysql.data.8.0.12.nupkg.sha512",
+        "mysql.data.8.0.13.nupkg.sha512",
         "mysql.data.nuspec"
       ]
     },
-    "MySql.Data.EntityFrameworkCore/8.0.12": {
-      "sha512": "EE/fPV+tmBW/GCb/Mmm9a+90AlBCKo3IQiw5DecWs84yWOBIeADO9vV71pEzglr25TxE3/99td+Gd+UpoLwL5g==",
+    "MySql.Data.EntityFrameworkCore/8.0.13": {
+      "sha512": "sNVNRZOcj2U3zGebejYxrDvYvZVf5F45tmGW3bl5HghoOgL9nwT2t8NRF7WTkaKGXD7QkhUgt3xHyDXr/Xc/6A==",
       "type": "package",
-      "path": "mysql.data.entityframeworkcore/8.0.12",
+      "path": "mysql.data.entityframeworkcore/8.0.13",
       "files": [
+        ".signature.p7s",
         "lib/net452/MySql.Data.EntityFrameworkCore.dll",
         "lib/net452/MySql.Data.EntityFrameworkCore.xml",
+        "lib/net461/MySql.Data.EntityFrameworkCore.dll",
+        "lib/net461/MySql.Data.EntityFrameworkCore.xml",
         "lib/netstandard1.6/MySql.Data.EntityFrameworkCore.dll",
         "lib/netstandard1.6/MySql.Data.EntityFrameworkCore.xml",
         "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll",
         "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.xml",
-        "mysql.data.entityframeworkcore.8.0.12.nupkg.sha512",
+        "mysql.data.entityframeworkcore.8.0.13.nupkg.sha512",
         "mysql.data.entityframeworkcore.nuspec"
       ]
     },
